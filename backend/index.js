@@ -20,8 +20,6 @@ const connect = async()=>{
     }
 }
 
-
-
 app.listen(5000 ,()=>{
      connect();
     console.log("server is running");
