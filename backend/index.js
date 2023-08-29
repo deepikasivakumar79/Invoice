@@ -10,8 +10,6 @@ app.use(cors());
 app.use(express.json());
 app.use("/Invoice",product);
 
-
-
 mongoose.set("strictQuery",true)
 const connect = async()=>{
     try{
